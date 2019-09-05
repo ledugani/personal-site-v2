@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './impossible_cube.png';
 
 import Blog from '../components/Blog/Blog';
 import Contact from '../components/Contact/Contact';
@@ -13,24 +13,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-
       <div className="navigation-menu">
         <Navbar />
       </div>
+
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          "The quieter you become, the more you can hear."
+        </p>
+      </header>
 
       <div className="home">
         <Home />
