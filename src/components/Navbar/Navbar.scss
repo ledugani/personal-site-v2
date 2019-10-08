@@ -1,34 +1,55 @@
 .navbar {
-  background-color: aquamarine;
-  height: 100px;
+  background-color: #C8DAB9;
+  height: auto;
   margin-bottom: 0;
   box-sizing:border-box;
+  border: none;
+  height: 100px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 }
 
-.left {
-  background-color:#2196F3;
-  padding:20px;
-  float:left;
-  width:20%; /* The width is 20%, by default */
+.navigation-list {
+  padding-left: 0;
+  position: relative;
+  list-style-type: none;
 }
 
-.main {
-  background-color:#f1f1f1;
-  padding:20px;
-  float:left;
-  width:60%; /* The width is 60%, by default */
+.nav-btn {
+  text-transform: uppercase;
+  font-size: 20px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.right {
-  background-color:#4CAF50;
-  padding:20px;
+.nav-home,
+.nav-experience,
+.nav-projects,
+.nav-blog,
+.nav-contact {
+  //padding:20px;
   float:left;
-  width:20%; /* The width is 20%, by default */
+  width:20%;
+}
+
+.nav-btn > p {
+  margin-bottom: 0;
+}
+
+.nav-btn > a, a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-btn:hover {
+  text-decoration: none;
+  background-color: rgb(166, 182, 154);
 }
 
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
-  .left, .main, .right {
+  .nav-home, .nav-experience, .nav-projects, .nav-blog, .nav-contact, .navigation-list {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
