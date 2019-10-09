@@ -7,7 +7,8 @@ This is an overhaul of my personal site. I'm taking the elements I like from the
 ## Update Log
 
 * **10/8/19 AM** made sure each nav element is evenly spaced and changes color on hover
+* **10/8/19 PM** Make navbar more mobile-friendly
 
 ### To-Do Next
 
-* Make navbar more mobile-friendly
+* Create hamburger menu + animation
