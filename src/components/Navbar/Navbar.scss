@@ -35,11 +35,11 @@
 
 .nav-btn > p {
   margin-bottom: 0;
-  color: black;
+  color: #333330;
 }
 
 .nav-btn > a, a:hover {
-  color: black;
+  color: #333330;
   text-decoration: none;
 }
 
@@ -48,9 +48,39 @@
   background-color: rgb(166, 182, 154);
 }
 
+// make icons invisible
+.mobile-icon {
+  display: none;
+}
+
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
-  .nav-home, .nav-experience, .nav-projects, .nav-blog, .nav-contact, .navigation-list {
+  .nav-home,
+  .nav-experience,
+  .nav-projects,
+  .nav-blog,
+  .nav-contact,
+  .navigation-list {
     width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    border-bottom: solid #333330 2px;
+    background-color: #C8DAB9;
+    justify-content: left;
   }
+
+  .header {
+    background-color: #F7F5F0
+  }
+
+  // make icons visible
+  .mobile-icon {
+    display: block;
+    margin: 0 25px;
+    height: 40px;
+  }
+
+  .right-arrow {
+    position: absolute;
+    right: 12px;
+  }
+
 }

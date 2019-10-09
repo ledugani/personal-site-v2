@@ -6,7 +6,7 @@ This is an overhaul of my personal site. I'm taking the elements I like from the
 
 ## Update Log
 
-* **10/8/19** made sure each nav element is evenly spaced and changes color on hover
+* **10/8/19 AM** made sure each nav element is evenly spaced and changes color on hover
 
 ### To-Do Next
 
