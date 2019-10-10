@@ -6,7 +6,7 @@ class Projects extends React.Component {
   render () {
     return (
       <div className="projects">
-        Projects
+        These are my Projects
       </div>
     );
   }
