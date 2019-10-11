@@ -17,12 +17,14 @@ function App() {
         <Navbar />
       </div>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="hm-text">
-          "The quieter you become, the more you can hear."
-        </p>
-      </header>
+      {/* <header className="App-header">
+        <div className="home-container">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p className="hm-text">
+            "The quieter you become, the more you can hear."
+          </p>
+        </div>
+      </header> */}
 
       <div className="home">
         <Home />
