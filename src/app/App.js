@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './impossible_cube.png';
+// import logo from './impossible_cube.png';
 
 import Blog from '../components/Blog/Blog';
 import Contact from '../components/Contact/Contact';
