@@ -1,3 +1,7 @@
+.engraved {
+  margin: 0;
+}
+
 .navbar {
   background-color: #C8DAB9;
   height: auto;
@@ -6,6 +10,7 @@
   border: none;
   height: 100px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
+  position: relative;
 }
 
 .navigation-list {
@@ -34,7 +39,7 @@
 }
 
 .nav-btn > p {
-  margin-bottom: 0;
+  //margin-bottom: 0;
   color: #333330;
 }
 

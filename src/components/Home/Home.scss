@@ -1,3 +1,113 @@
 .home {
-  background-color: plum
+  display: block;
+  width: 100%;
+  height: 500px;
 }
+
+.wallpaper {
+  background-image: url('../../img/blue-vintage-floral-wallpaper-gallery-images.jpg');
+  background-repeat: no-repeat;
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.bio {
+  background-color: rgb(43, 39, 56);
+  width: 30%;
+  float: right;
+  height: 100%;
+}
+
+.bio-text {
+  color: white;
+  text-align: left;
+  font-size: 17px;
+  padding: 48px;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+// below this line taken from https://codepen.io/chris22smith/pen/PbBwjp
+
+.picture {
+  border:solid 2px;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  max-height:100%;
+  max-width:100%;
+}
+
+.frame {
+  background-color:#ddc;
+  border:solid 5vmin #eee;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-radius:2px;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  box-sizing:border-box;
+  display:inline-block;
+  margin:10vh 10vw;
+  height:80%;
+  padding:35px;
+  position:relative;
+  text-align:center;
+  &:before {
+    border-radius:2px;
+    bottom:-2vmin;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+    content:"";
+    left:-2vmin;
+    position:absolute;
+    right:-2vmin;
+    top:-2vmin;
+  }
+  &:after {
+    border-radius:2px;
+    bottom:-2.5vmin;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    content:"";
+    left:-2.5vmin;
+    position:absolute;
+    right:-2.5vmin;
+    top:-2.5vmin;
+  }
+}
+
+// credit to https://codepen.io/chris22smith for the css
+
+// screen size between 1000px and 1300px
+@media (min-width: 1000px) and (max-width: 1300px)  {
+  .bio-text {
+    color: red;
+  }
+}
+
+// screen size less than 1000px
+@media screen and (max-width:1000px) {
+  .wallpaper,
+  .bio {
+    clear: both;
+    width: 100%;
+  }
+
+  .bio {
+    height: 250px;
+  }
+
+  .bio-text {
+    font-size: 3.7vw;
+    vertical-align: middle;
+    padding: 15px 10px;
+  }
+}
+
+// @media screen and (max-width: 1200px) {
+//   .bio-text {
+//     font-size: 3vw;
+//   }
+// }

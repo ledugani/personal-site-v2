@@ -23,7 +23,7 @@ class Navbar extends React.Component {
           <a href="/">
             <li className="nav-btn nav-experience">
               <img src={experience} className="mobile-icon" alt="logo" />
-              <p>Experience</p>
+              <p className="engraved">Experience</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
           </a>
@@ -31,7 +31,7 @@ class Navbar extends React.Component {
           <a href="/">
             <li className="nav-btn nav-projects">
               <img src={projects} className="mobile-icon" alt="logo" />
-              <p>Projects</p>
+              <p className="engraved">Projects</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
           </a>
@@ -39,7 +39,7 @@ class Navbar extends React.Component {
           <a href="/">
             <li className="nav-btn nav-blog">
               <img src={blog} className="mobile-icon" alt="logo" />
-              <p>Blog</p>
+              <p className="engraved">Blog</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
           </a>
@@ -47,7 +47,7 @@ class Navbar extends React.Component {
           <a href="/">
             <li className="nav-btn nav-contact">
               <img src={contact} className="mobile-icon" alt="logo" />
-              <p>Contact</p>
+              <p className="engraved">Contact</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
           </a>
