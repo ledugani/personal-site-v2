@@ -17,15 +17,15 @@
   width: 30%;
   float: right;
   height: 100%;
+  overflow-wrap: break-word;
 }
 
 .bio-text {
   color: white;
   text-align: left;
-  font-size: 17px;
-  padding: 48px;
+  font-size: 1.3vw;
+  padding: 40px;
   height: 100%;
-  margin-bottom: 0;
 }
 
 // below this line taken from https://codepen.io/chris22smith/pen/PbBwjp
@@ -83,12 +83,12 @@
 // screen size between 1000px and 1300px
 @media (min-width: 1000px) and (max-width: 1300px)  {
   .bio-text {
-    color: red;
+    font-size: 1.3vw;
   }
 }
 
 // screen size less than 1000px
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .wallpaper,
   .bio {
     clear: both;
@@ -96,13 +96,13 @@
   }
 
   .bio {
-    height: 250px;
+    height: 25vw;
   }
 
   .bio-text {
-    font-size: 3.7vw;
     vertical-align: middle;
-    padding: 15px 10px;
+    padding: 25px;
+    font-size: 2.1vw;
   }
 }
 
