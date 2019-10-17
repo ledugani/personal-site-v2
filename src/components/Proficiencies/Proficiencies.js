@@ -6,7 +6,17 @@ class Proficiencies extends React.Component {
   render () {
     return (
       <div className="proficiencies">
-        Proficiencies
+        <div class="outer">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     );
   }
