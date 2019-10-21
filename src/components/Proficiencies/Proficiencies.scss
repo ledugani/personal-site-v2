@@ -5,9 +5,14 @@
 }
 
 .logo {
-  margin-top: 40px;
+  margin-top: 25px;
   padding: 10px;
   height: 7vw;
+}
+
+.sn, .npm {
+  height: 5vw !important;
+  padding-top: 30px;
 }
 
 .outer {
@@ -32,16 +37,16 @@
   display: inline-block;
 }
 
-// // screen size between 1000px and 1300px
-// @media (min-width: 1000px) and (max-width: 1300px)  {
-//   .logo {
-//     height: 50px;
-//   }
-// }
+// screen size between 1000px and 1300px
+@media (min-width: 1000px) and (max-width: 1300px)  {
+  .logo {
+    height: 50px;
+  }
+}
 
-// // screen size less than 1000px
-// @media screen and (max-width: 1000px) {
-//   .logo {
-//     height: 28px;
-//   }
-// }
+// screen size less than 1000px
+@media screen and (max-width: 1000px) {
+  .logo {
+    height: 28px;
+  }
+}
