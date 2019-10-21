@@ -5,6 +5,7 @@ import Blog from '../components/Blog/Blog';
 import Contact from '../components/Contact/Contact';
 import Experience from '../components/Experience/Experience';
 import Home from '../components/Home/Home';
+import Proficiencies from '../components/Proficiencies/Proficiencies';
 import Projects from '../components/Projects/Projects';
 import Navbar from '../components/Navbar/Navbar';
 
@@ -28,6 +29,10 @@ function App() {
 
       <div className="home">
         <Home />
+      </div>
+
+      <div className="proficiencies">
+        <Proficiencies />
       </div>
 
       <div className="experience">
