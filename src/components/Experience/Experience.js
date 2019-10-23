@@ -6,7 +6,7 @@ class Experience extends React.Component {
   render () {
     return (
       <div className="experience">
-        Experience
+        <h1>Professional Experience</h1>
       </div>
     );
   }
