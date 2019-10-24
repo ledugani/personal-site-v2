@@ -17,7 +17,7 @@ class Experience extends React.Component {
             <h3>{data.role}</h3>
             <p><em>{data.company}</em></p>
 
-            <Collapsible trigger={data.start}>
+            <Collapsible>
               <ul>
                 <li>list item 1</li>
                 <li>list item 2</li>
