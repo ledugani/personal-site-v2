@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-
+import Collapsible from 'react-collapsible';
 import timelineData from './Data.json';
 
 console.log(timelineData);
@@ -16,7 +16,14 @@ class Experience extends React.Component {
             <time>{data.start}</time>
             <h3>{data.role}</h3>
             <p><em>{data.company}</em></p>
-            <button></button>
+
+            <Collapsible trigger={data.start}>
+              <ul>
+                <li>list item 1</li>
+                <li>list item 2</li>
+                <li>list item 3</li>
+              </ul>
+            </Collapsible>
             <span className="circle" />
           </div>
         </div>
