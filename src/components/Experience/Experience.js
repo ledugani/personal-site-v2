@@ -16,7 +16,7 @@ class Experience extends React.Component {
             <p><em>{data.company}</em></p>
 
             <Collapsible>
-              <ul>
+              <ul className="responsibilities">
                 {data.responsibilities.map((item, index) => (
                   <li key={index} item={item}>{item}</li>
                 ))}
