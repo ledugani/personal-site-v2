@@ -1,0 +1,90 @@
+[
+  {
+    "company": "InfoCenter",
+    "start": "March 2019",
+    "end": "September 2019",
+    "role": "ServiceNow Consultant",
+    "location": "Nashville, TN",
+    "responsibilities": [
+      "Maintain expert IT Service Management knowledge to act as a technical liaison between Project Managers and clients",
+      "Draft workflow schema to automate recurring business operations",
+      "Utilize Service Level Agreements to ensure timely delivery and acceptable quality of services provided",
+      "Successfully implement Change Management practices to determine scope and severity of change requests",
+      "Design, test and debug ServiceNow client-side and server-side scripts, manage applications and implement application changes",
+      "Develop custom service portals and configure new products with dependent variables for client service catalogs",
+      "Integrate Lightweight Directory Access Protocol (LDAP) data sets using Transform Maps to update user data",
+      "Manage Update Sets for version control"
+    ]
+  },
+  {
+    "company": "Rebel Hill Florist",
+    "start": "October 2018",
+    "end": "February 2019",
+    "role": "IT Specialist",
+    "location": "Nashville, TN",
+    "responsibilities": [
+      "Provide technical assistance on computers, tablets, phones, and television in store on a daily basis, including the use of Apple software to interconnect devices in-store",
+      "Use G Suite to maintain and monitor email systems for company employees",
+      "Create and optimize all content for company website and search engines",
+      "Utilize Basecamp to communicate with web development company and implement changes requested by store management"
+    ]
+  },
+  {
+    "company": "Nashville Software School",
+    "start": "February 2018",
+    "end": "February 2019",
+    "role": "Full Stack Software Student",
+    "location": "Nashville, TN",
+    "responsibilities": [
+      "Simulate real-world business problems by utilizing OOP fundamentals in group and individual projects",
+      "Management and tracking of projects using GitHub Projects Issue Tracking Implement DRY, readable code in JavaScript",
+      "Utilize React, HTML, CSS, and jQuery to build browser-based single page applications Carry out Task Automation using Browserify to bundle modules",
+      "Write custom styles and use CSS, Sass, Bootstrap and Materialize to style applications and web pages",
+      "Employ VirtualBox to create a virtual Windows environment in order to run Visual Studio and SQL Server Management Studio",
+      "Build ERD’s by whiteboarding dependencies to design applications from the database to the web page",
+      "Use C#/.NET to create RESTful API’s that return the specified data from user queries Source code version control with Git/GitHub",
+      "Develop and modify database design and content using SQL"
+    ]
+  },
+  {
+    "company": "Aadwebb, Inc.",
+    "start": "January 2017",
+    "end": "Present",
+    "role": "Co-Owner / Web Master",
+    "location": "Nashville, TN",
+    "responsibilities": [
+      "Effectively scale, manage, and operate multiple eCommerce, local business, and blog websites on a daily basis",
+      "Manage daily administrative operations of client sites using WordPress and other Content Management Systems",
+      "Conduct SEO audits on client websites to relay efficacy of content",
+      "Create content optimized for search engine ranking and user readability using Schema markup",
+      "Successfully communicate with hosting companies to implement changes on client websites"
+    ]
+  },
+  {
+    "company": "EndoChoice",
+    "start": "November 2015",
+    "end": "December 2016",
+    "role": "Endoscope Repair Technician",
+    "location": "Nashville, TN",
+    "responsibilities": [
+      "Managed multiple endoscopes on work bench at once and repair in timely manner",
+      "Executed bench-type processes to complete repairs based upon the incoming QA technician's findings",
+      "Successfully diagnosed issues, repaired or replaced parts, tested and made adjustments on daily basis",
+      "Utilized ticketing system to complete tasks"
+    ]
+  },
+  {
+    "company": "Turner Law Offices, P.C.",
+    "start": "May 2013",
+    "end": "October 2014",
+    "role": "File Room Manager / Content Creator",
+    "location": "Nashville, TN",
+    "responsibilities": [
+      "Filed, scanned, copied, and mailed legal documents",
+      "Delivered legal documents to Davidson County courts",
+      "Managed all advertisement letters and other outgoing mail",
+      "Generated content optimized for search engine ranking on website",
+      "Develop and organize site structure and individual web pages"
+    ]
+  }
+]

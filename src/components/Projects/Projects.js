@@ -6,7 +6,7 @@ class Projects extends React.Component {
   render () {
     return (
       <div className="projects">
-        These are my Projects
+        <h1>Full Stack Projects</h1>
       </div>
     );
   }

@@ -6,7 +6,7 @@ class Blog extends React.Component {
   render () {
     return (
       <div className="blog">
-        Blog
+        <h1>Blog Posts</h1>
       </div>
     );
   }

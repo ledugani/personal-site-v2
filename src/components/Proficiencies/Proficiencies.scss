@@ -1,5 +1,5 @@
 .proficiencies {
-  background-color: #fff;
+  background-color: #F8F8F8;
   height: 150px;
   overflow: hidden;
 }
@@ -24,6 +24,10 @@
   overflow-y: hidden;
 }
 
+.react-multiple-carousel__arrow {
+  margin-top: 15px;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -39,14 +43,14 @@
 
 // screen size between 1000px and 1300px
 @media (min-width: 1000px) and (max-width: 1300px)  {
-  .logo {
-    height: 50px;
-  }
+  // .logo {
+  //   height: 50px;
+  // }
 }
 
 // screen size less than 1000px
 @media screen and (max-width: 1000px) {
-  .logo {
-    height: 28px;
-  }
+  // .logo {
+  //   height: 28px;
+  // }
 }
