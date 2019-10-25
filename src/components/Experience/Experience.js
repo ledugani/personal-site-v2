@@ -6,8 +6,6 @@ import timelineData from './Data.json';
 console.log(timelineData);
 
 class Experience extends React.Component {
-
-
   render () {
     const timelineComponents = timelineData.map((data) => {
       return (
@@ -19,9 +17,9 @@ class Experience extends React.Component {
 
             <Collapsible>
               <ul>
-                <li>list item 1</li>
-                <li>list item 2</li>
-                <li>list item 3</li>
+                {data.responsibilities.map((item, index) => (
+                  <li key={index} item={item}>{item}</li>
+                ))}
               </ul>
             </Collapsible>
             <span className="circle" />

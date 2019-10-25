@@ -41,7 +41,6 @@ const responsive = {
 };
 
 class Proficiencies extends React.Component {
-
   render () {
     return (
       <div className="proficiencies">
