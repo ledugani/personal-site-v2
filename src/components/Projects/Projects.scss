@@ -1,3 +1,42 @@
 .projects {
-  background-color: #A9A587
+  background-color: #A9A587;
+  height: 100%;
+  border: solid black 1px;
+
+}
+
+// .singleProject {
+//   display: block;
+//   padding: 25px 0;
+//   margin: 0;
+//   border: solid black 1px;
+// }
+
+.singleProject {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  padding: 25px 0;
+
+  &:after {
+    font-family: 'FontAwesome';
+      content: '\f107';
+      top: 10%;
+      right: 0%;
+    position: absolute;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  &.is-open {
+    &:after {
+      transform: rotateZ(180deg);
+    }
+  }
+
+  &.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
 }

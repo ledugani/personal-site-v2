@@ -1,22 +1,32 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
+import allProjects from './Projects.json';
 
 import './Projects.css';
 
 class Projects extends React.Component {
 
   render () {
-    const MyProjects =
+    const MyProjects = allProjects.map((data) => {
+      return (
+        <h2 className="singleProject">
+          <Collapsible trigger={data.title}>
+            <ul>
+              <li>list item 1</li>
+              <li>list item 2</li>
+              <li>list item 3</li>
+            </ul>
+          </Collapsible>
+        </h2>
+      );
+    });
+
     return (
       <div className="projects">
-        <h1>Full Stack Projects</h1>
-        <Collapsible>
-          <ul className="responsibilities">
-            {data.responsibilities.map((item, index) => (
-              <li key={index} item={item}>{item}</li>
-            ))}
-          </ul>
-        </Collapsible>
+        <h1>Project Portfolio</h1>
+        <div className="project-container">
+          {MyProjects}
+        </div>
       </div>
     );
   }
