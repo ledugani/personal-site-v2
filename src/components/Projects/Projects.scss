@@ -1,42 +1,48 @@
 .projects {
-  background-color: #A9A587;
-  height: 100%;
+  background-color: #2B2738;
   border: solid black 1px;
-
 }
 
-// .singleProject {
-//   display: block;
-//   padding: 25px 0;
-//   margin: 0;
-//   border: solid black 1px;
-// }
+.project-container
 
-.singleProject {
+.project-details {
+  background-color: #746B91;
+}
+
+.project-details li {
+  margin: 0 !important;
+}
+
+.single-project .Collapsible__trigger {
   display: block;
   font-weight: 400;
   text-decoration: none;
-  color: black;
-  padding: 25px 0;
+  color: #333333;
+  position: relative;
+  padding: 10px;
+  border: solid black 1px;
+  color: #FFFFFF;
 
   &:after {
     font-family: 'FontAwesome';
-      content: '\f107';
-      top: 10%;
-      right: 0%;
+    content: '\f107';
     position: absolute;
+    right: 10px;
+    top: 10px;
     display: block;
     transition: transform 300ms;
   }
 
-  &.is-open {
-    &:after {
-      transform: rotateZ(180deg);
-    }
+  &.is-open:after {
+    transform: rotateZ(180deg);
   }
 
   &.is-disabled {
     opacity: 0.5;
     background-color: grey;
+  }
+
+  &:hover {
+    cursor: pointer
   }
 }

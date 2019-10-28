@@ -9,9 +9,9 @@ class Projects extends React.Component {
   render () {
     const MyProjects = allProjects.map((data) => {
       return (
-        <h2 className="singleProject">
+        <h2 className="single-project">
           <Collapsible trigger={data.title}>
-            <ul>
+            <ul className="project-details">
               <li>list item 1</li>
               <li>list item 2</li>
               <li>list item 3</li>
