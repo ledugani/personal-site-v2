@@ -1,15 +1,35 @@
-.projects {
-  background-color: #2B2738;
-  border: solid black 1px;
+.project-container {
+  background-color: #746B91;
+  margin: 10px 0;
 }
 
-.project-container
+.projects {
+  background-color: #2B2738;
+  color: #FFFFFF;;
+}
 
-.project-details {
+.left, .right, .buttons-container {
   background-color: #746B91;
 }
 
-.project-details li {
+.button {
+  width: 100px
+}
+
+.left {
+  display: block;
+  float: left;
+  width: 30%;
+}
+
+.right {
+  display: block;
+  position: relative;
+  float: right;
+  width: 70%;
+}
+
+.clpsbl {
   margin: 0 !important;
 }
 
@@ -17,7 +37,7 @@
   display: block;
   font-weight: 400;
   text-decoration: none;
-  color: #333333;
+  background-color: #2B2738;
   position: relative;
   padding: 10px;
   border: solid black 1px;
@@ -45,4 +65,14 @@
   &:hover {
     cursor: pointer
   }
+}
+
+.placeholder {
+  width: 200px;
+}
+
+.project-description, .project-details {
+  width: 50vw;
+  font-size: 1vw;
+  margin: auto;
 }
