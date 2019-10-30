@@ -1,19 +1,11 @@
 .project-container {
   background-color: #746B91;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .projects {
   background-color: #2B2738;
-  color: #FFFFFF;;
-}
-
-.left, .right, .buttons-container {
-  background-color: #746B91;
-}
-
-.button {
-  width: 100px
+  color: #FFFFFF;
 }
 
 .left {
@@ -78,4 +70,130 @@
   width: 50vw;
   font-size: 1vw;
   margin: auto;
+}
+
+// button styles
+
+.buttons-container {
+  width: 200px;
+  margin: 15px auto;
+  //overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-button {
+  float: left;
+  margin: 0;
+}
+
+.right-button {
+  float: right;
+  margin: 0;
+}
+
+.left, .right, .buttons-container {
+  background-color: #746B91;
+}
+
+// .button {
+//   width: 40%;
+//   background: #34495e;
+//   border-bottom: #2c3e50 3px solid;
+//   border-left: #2c3e50 1px solid;
+//   border-right: #2c3e50 1px solid;
+//   border-radius: 6px;
+//   text-align: center;
+//   color: white;
+//   padding: 10px;
+//   float: left;
+//   font-size: 12px;
+//   font-weight: 800;
+
+//   &:hover {
+//     opacity: 0.8;
+//   }
+
+//   &:active {
+//     background: #2D3F51;
+//     border-bottom: #2c3e50 1px solid;
+//     border-left: #2c3e50 1px solid;
+//     border-right: #2c3e50 1px solid;
+//     border-radius: 6px;
+//     text-align: center;
+//     color: white;
+//     padding: 10px;
+//     margin-top: 3px;
+//     float: left;
+//   }
+
+//   &:focus {
+//     outline: 0;
+//   }
+// }
+
+// button {
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+// }
+
+/* General button style (reset) */
+.btn {
+  color: #FFFFFF;
+	cursor: pointer;
+	padding: 10px;
+  display: inline-block;
+	//margin: 15px 30px;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  &:focus {
+    outline: 0;
+    color: #FFFFFF;
+  }
+}
+
+.btn:after {
+  color: #FFFFFF;
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 2 */
+.btn-2 {
+  color: #FFFFFF;
+	background: #cb4e4e;
+	box-shadow: 0 6px #ab3c3c;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+/* Button 2a */
+.btn-2a {
+  color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.btn-2a:hover {
+  color: #FFFFFF;
+	box-shadow: 0 4px #ab3c3c;
+  top: 2px;
+}
+
+.btn-2a:active {
+  color: #FFFFFF;
+	box-shadow: 0 0 #ab3c3c;
+  top: 6px;
+  &:focus {
+    outline: 0;
+  }
 }

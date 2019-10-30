@@ -19,9 +19,9 @@ class Projects extends React.Component {
                 <img src={placeholder} alt="placeholder" className="placeholder" />
                 <div className="buttons-container">
 
-                  <button className="left-button button">Demo</button>
+                  <button className="left-button button btn btn-2 btn-2a">Demo</button>
 
-                  <button className="right-button button">Code</button>
+                  <button className="right-button button btn btn-2 btn-2a">Code</button>
 
                 </div>
               </div>

@@ -1,7 +1,7 @@
 [
   {
     "title": "Polyphony",
-    "description": "",
+    "description": "A full stack web application that allows users to stream their favorite tracks or albums in a chat room and interact with other users logged in. I built this application from the ground up starting with an ERD, building an API, making requests with Axios, and creating components with React.js. I also utilized SignalR to enable real-time chat functionality.",
     "demoLink": "",
     "githubLink": "",
     "screencap": "",
@@ -18,7 +18,7 @@
   },
   {
     "title": "GameSphere",
-    "description": "",
+    "description": "A React application which allows the user to keep track of which video games they own, which games they want, and which games they've played. Utilizing JSX and jQuery, I created bootstrap components in the DOM and incorporated RESTful requests using AJAX and JSON.",
     "demoLink": "",
     "githubLink": "",
     "screencap": "",
@@ -34,8 +34,8 @@
     ]
   },
   {
-    "title": "Movie Maker?",
-    "description": "",
+    "title": "Movie Maker",
+    "description": "A Single Page, Bootstrapped Application for producers to enter their budget for a movie to be made, which sets the cap of a progress bar. The user can then add and remove extravagant components to their budget and watch as the progress bar fills or empties in real time. Using JavaScript, I was able to experiment with filling and emptying a bootstrap progress bar by checking and unchecking boxes.",
     "demoLink": "",
     "githubLink": "",
     "screencap": "",
