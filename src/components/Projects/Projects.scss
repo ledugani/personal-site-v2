@@ -40,7 +40,6 @@
   background-color: #2B2738;
   position: relative;
   padding: 10px;
-  border: solid black 1px;
   color: #FFFFFF;
 
   &:after {
@@ -60,6 +59,10 @@
   &.is-disabled {
     opacity: 0.5;
     background-color: grey;
+  }
+
+  &.is-closed:hover {
+    background-color: rgb(66, 60, 87);
   }
 
   &:hover {
