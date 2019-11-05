@@ -38,25 +38,31 @@
   },
   {
     "title": "USVI Today",
-    "description": "",
-    "demoLink": "",
+    "description": "An example of my work using WordPress. USVI Today is a travel site for those interested in learning more about the U.S. Virgin Islands. A perfect example of just how scalable the WordPress platform can be. Started with basic site structure of 5 pages, expanded to just over 60 pages. Every page is full of hand-written, sourced information that was tailored to be highly ranked by search engines.",
+    "demoLink": "http://usvitoday.com/",
     "githubLink": "disabled",
     "screencap": "",
     "techUsed": [
-      "",
-      ""
+      "WordPress 4.9.8",
+      "CSS3",
+      "GoDaddy",
+      "SEO",
+      "Envato Market",
+      "Google Analytics"
     ]
   },
   {
     "title": "Aadwebb, Inc.",
-    "description": "",
-    "demoLink": "",
+    "description": "The website for the company I co-founded in 2017.",
+    "demoLink": "https://aadwebb.com/",
     "githubLink": "disabled",
     "screencap": "",
     "techUsed": [
-      "",
-      "",
-      ""
+      "WordPress 4.9.8",
+      "CSS3",
+      "GoDaddy",
+      "SEO",
+      "Google Analytics"
     ]
   }
 ]

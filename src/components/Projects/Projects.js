@@ -7,18 +7,8 @@ import './Projects.css';
 
 class Projects extends React.Component {
 
-  // componentDidMount() {
-  //   const demoBtn = document.getElementsByClassName("left-button");
-  //   const codeBtn = document.getElementsByClassName("right-button");
-
-  //   if (demoBtn.href = "disabled") {
-  //     demoBtn.
-  //   }
-  // }
-
   render () {
     const MyProjects = allProjects.map((data) => {
-      console.log(data);
       return (
         <h2 className="single-project">
           <Collapsible trigger={data.title} className="clpsbl">
