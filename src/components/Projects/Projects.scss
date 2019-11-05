@@ -169,20 +169,24 @@
 
 // screen size less than 1000px
 @media screen and (max-width: 1000px) {
-  .Collapsible__contentOuter {
-    padding: 10px;
-  }
+  // .Collapsible__contentOuter {
+  //   padding: 10px;
+  // }
 
   .placeholder {
     height: 121px;
   }
 
   .buttons-container {
-    margin-left: -12px;
+    margin-left: -6px;
   }
 
   .right-button {
     margin-left: -10px;
+  }
+
+  .right-button, .left-button {
+    width: 65px;
   }
 
   .right, .left {
@@ -198,6 +202,10 @@
   .project-description, .project-details {
     margin: 0;
     font-size: 10px;
+  }
+
+  .project-description {
+    text-align: justify;
   }
 
   .project-details {
