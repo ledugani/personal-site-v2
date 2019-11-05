@@ -72,6 +72,11 @@
   margin: auto;
 }
 
+.project-details {
+  text-align: left;
+  margin-left: 40%;
+}
+
 // button styles
 
 .buttons-container {
@@ -92,50 +97,9 @@
   margin: 0;
 }
 
-.left, .right, .buttons-container {
-  background-color: #746B91;
+.technologies {
+  list-style-position: inside;
 }
-
-// .button {
-//   width: 40%;
-//   background: #34495e;
-//   border-bottom: #2c3e50 3px solid;
-//   border-left: #2c3e50 1px solid;
-//   border-right: #2c3e50 1px solid;
-//   border-radius: 6px;
-//   text-align: center;
-//   color: white;
-//   padding: 10px;
-//   float: left;
-//   font-size: 12px;
-//   font-weight: 800;
-
-//   &:hover {
-//     opacity: 0.8;
-//   }
-
-//   &:active {
-//     background: #2D3F51;
-//     border-bottom: #2c3e50 1px solid;
-//     border-left: #2c3e50 1px solid;
-//     border-right: #2c3e50 1px solid;
-//     border-radius: 6px;
-//     text-align: center;
-//     color: white;
-//     padding: 10px;
-//     margin-top: 3px;
-//     float: left;
-//   }
-
-//   &:focus {
-//     outline: 0;
-//   }
-// }
-
-// button {
-//   -webkit-appearance: none;
-//   -moz-appearance: none;
-// }
 
 /* General button style (reset) */
 .btn {
@@ -195,5 +159,54 @@
   top: 6px;
   &:focus {
     outline: 0;
+  }
+}
+
+// screen size between 1000px and 1300px
+@media (min-width: 1000px) and (max-width: 1300px)  {
+
+}
+
+// screen size less than 1000px
+@media screen and (max-width: 1000px) {
+  .Collapsible__contentOuter {
+    padding: 10px;
+  }
+
+  .placeholder {
+    height: 121px;
+  }
+
+  .buttons-container {
+    margin-left: -12px;
+  }
+
+  .right-button {
+    margin-left: -10px;
+  }
+
+  .right, .left {
+    width: 50%;
+    height: 100%;
+  }
+
+  .left > .placeholder,
+  .right >  .project-description{
+    width: 90%;
+  }
+
+  .project-description, .project-details {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .project-details {
+    margin-top: -25px;
+  }
+
+  .single-project .Collapsible__trigger {
+    &.is-closed:hover {
+      background-color: #2B2738;
+    }
   }
 }
