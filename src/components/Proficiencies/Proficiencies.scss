@@ -50,7 +50,16 @@
 
 // screen size less than 1000px
 @media screen and (max-width: 1000px) {
-  // .logo {
-  //   height: 28px;
-  // }
+  .proficiencies {
+    height: 100%;
+  }
+
+  .bio {
+    height: 43vh;
+  }
+
+  .bio-text {
+    font-size: 12px;
+    height: 100%
+  }
 }
