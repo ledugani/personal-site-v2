@@ -4,7 +4,7 @@
     "description": "A full stack web application that allows users to stream their favorite tracks or albums in a chat room and interact with other users logged in. I built this application from the ground up starting with an ERD, building an API, making requests with Axios, and creating components with React.js. I also utilized SignalR to enable real-time chat functionality.",
     "demoLink": "disabled",
     "githubLink": "https://github.com/ledugani/polyphony",
-    "screencap": "",
+    "screencap": "polyphony",
     "techUsed": [
       "SignalR",
       "ReactJS",
@@ -18,7 +18,7 @@
     "description": "A React application which allows the user to keep track of which video games they own, which games they want, and which games they've played. Utilizing JSX and jQuery, I created bootstrap components in the DOM and incorporated RESTful requests using AJAX and JSON.",
     "demoLink": "disabled",
     "githubLink": "https://github.com/ledugani/front-end-capstone",
-    "screencap": "",
+    "screencap": "gamesphere",
     "techUsed": [
       "ReactJS",
       "Firebase",
@@ -30,7 +30,7 @@
     "description": "A Single Page, Bootstrapped Application for producers to enter their budget for a movie to be made, which sets the cap of a progress bar. The user can then add and remove extravagant components to their budget and watch as the progress bar fills or empties in real time. Using JavaScript, I was able to experiment with filling and emptying a bootstrap progress bar by checking and unchecking boxes.",
     "demoLink": "disabled",
     "githubLink": "https://github.com/ledugani/movie-maker",
-    "screencap": "",
+    "screencap": "movie-maker",
     "techUsed": [
       "Javascript",
       "Bootstrap"
@@ -41,7 +41,7 @@
     "description": "An example of my work using WordPress. USVI Today is a travel site for those interested in learning more about the U.S. Virgin Islands. A perfect example of just how scalable the WordPress platform can be. Started with basic site structure of 5 pages, expanded to just over 60 pages. Every page is full of hand-written, sourced information that was tailored to be highly ranked by search engines.",
     "demoLink": "http://usvitoday.com/",
     "githubLink": "disabled",
-    "screencap": "",
+    "screencap": "usvi-today",
     "techUsed": [
       "WordPress 4.9.8",
       "CSS3",
@@ -55,7 +55,7 @@
     "description": "The website for the company I co-founded in 2017.",
     "demoLink": "https://aadwebb.com/",
     "githubLink": "disabled",
-    "screencap": "",
+    "screencap": "aadwebb",
     "techUsed": [
       "WordPress 4.9.8",
       "CSS3",

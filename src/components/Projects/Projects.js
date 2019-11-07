@@ -1,11 +1,33 @@
 import React from 'react';
 import Collapsible from 'react-collapsible';
 import allProjects from './Projects.json';
-import placeholder from '../../img/placeholder.jpg';
+import placeholder from './img/placeholder.jpg';
+import polyphony from './img/polyphony.png';
+import gamesphere from './img/gamesphere.png';
+import moviemaker from './img/movie-maker.png';
+import usvitoday from './img/usvi-today.png';
+import aadwebb from './img/aadwebb.png';
 
 import './Projects.css';
 
 class Projects extends React.Component {
+
+  renderSwitch(img) {
+    switch(img) {
+      case 'polyphony':
+        return polyphony;
+      case 'gamesphere':
+        return gamesphere;
+      case 'movie-maker':
+        return moviemaker;
+      case 'usvi-today':
+        return usvitoday;
+      case 'aadwebb':
+        return aadwebb;
+      default:
+        return placeholder;
+    }
+  }
 
   render () {
     const MyProjects = allProjects.map((data) => {
@@ -17,7 +39,11 @@ class Projects extends React.Component {
 
               <div className="left">
 
-                <img src={placeholder} alt="placeholder" className="placeholder" />
+                <img
+                  src={this.renderSwitch(data.screencap)}
+                  alt={data.title}
+                  className="screenshot"
+                />
 
                 <div className="buttons-container">
 

@@ -62,7 +62,7 @@
   }
 }
 
-.placeholder {
+.screenshot {
   width: 200px;
 }
 
@@ -84,7 +84,7 @@
   margin: 15px auto;
   //overflow: hidden;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .left-button {
@@ -164,17 +164,31 @@
 
 // screen size between 1000px and 1300px
 @media (min-width: 1000px) and (max-width: 1300px)  {
+  .screenshot {
+    width: 200px;
+  }
 
+  .buttons-container {
+    width: 200px;
+  }
 }
 
-// screen size less than 1000px
-@media screen and (max-width: 1000px) {
+// screen size between 1000px and 1300px
+@media (min-width: 500px) and (max-width: 1000px) {
+  // .buttons-container {
+  //   text-align: center;
+  //   margin: 0px !important;
+  //}
+}
+
+// mobile
+@media screen and (max-width: 500) {
   // .Collapsible__contentOuter {
   //   padding: 10px;
   // }
 
-  .placeholder {
-    height: 121px;
+  .screenshot {
+    width: 121px;
   }
 
   .buttons-container {
