@@ -29,6 +29,10 @@ class Projects extends React.Component {
     }
   }
 
+  componentDidUpdate() {
+    console.log(this.refs.demoRef.classList);
+  }
+
   render () {
     const MyProjects = allProjects.map((data) => {
       return (
@@ -52,6 +56,7 @@ class Projects extends React.Component {
                       ${data.demoLink === "disabled" ? 'disabled' : ''}
                     `}
                     href={data.demoLink}
+                    ref={"demoRef"}
                   >
                     Demo
                   </button>
@@ -61,6 +66,7 @@ class Projects extends React.Component {
                       ${data.githubLink === "disabled" ? 'disabled' : ''}
                     `}
                     href={data.githubLink}
+                    ref={"codeRef"}
                   >
                     Code
                   </button>

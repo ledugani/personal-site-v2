@@ -62,9 +62,6 @@
   }
 }
 
-.screenshot {
-  width: 200px;
-}
 
 .project-description, .project-details {
   width: 50vw;
@@ -182,25 +179,26 @@
 }
 
 // mobile
-@media screen and (max-width: 500) {
+@media only screen {
   // .Collapsible__contentOuter {
   //   padding: 10px;
   // }
+  .disabled {
+    display: none;
+  }
 
   .screenshot {
-    width: 121px;
+    width: 30vw;
   }
 
-  .buttons-container {
-    margin-left: -6px;
-  }
+  // .buttons-container {
+  //   margin-left: -6px;
+  // }
 
-  .right-button {
-    margin-left: -10px;
-  }
-
-  .right-button, .left-button {
-    width: 65px;
+  .btn {
+    clear: both;
+    margin: auto;
+    width: 100%;
   }
 
   .right, .left {
