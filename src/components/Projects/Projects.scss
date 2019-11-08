@@ -62,13 +62,6 @@
   }
 }
 
-
-.project-description, .project-details {
-  width: 50vw;
-  font-size: 1vw;
-  margin: auto;
-}
-
 .project-details {
   text-align: left;
   margin-left: 40%;
@@ -160,35 +153,62 @@
 }
 
 // screen size between 1000px and 1300px
-@media (min-width: 1000px) and (max-width: 1300px)  {
+@media (min-width: 1000px)  {
   .screenshot {
     width: 200px;
+    float: right;
   }
 
   .buttons-container {
     width: 200px;
   }
+
+  .top {
+    clear: both;
+    min-height: 40vh;
+  }
+
+  .project-description, .project-details {
+    width: 50vw;
+    font-size: 16px;
+    margin: auto;
+  }
 }
 
-// screen size between 1000px and 1300px
-@media (min-width: 500px) and (max-width: 1000px) {
-  // .buttons-container {
-  //   text-align: center;
-  //   margin: 0px !important;
-  //}
+@media (min-width: 600px) and (max-width: 1000px) {
+  .screenshot {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .buttons-container {
+    width: 200px;
+  }
+
+  .top {
+    clear: both;
+    min-height: 40vh;
+  }
+
+  .project-description, .project-details {
+    width: 50vw;
+    font-size: 13.5px;
+    margin: auto;
+  }
 }
 
-// mobile
-@media only screen {
+// mobile and smaller screens
+@media screen and (max-width: 600px) {
   // .Collapsible__contentOuter {
   //   padding: 10px;
   // }
+
   .disabled {
     display: none;
   }
 
   .screenshot {
-    width: 30vw;
+    width: 20vw;
   }
 
   // .buttons-container {
@@ -228,5 +248,13 @@
     &.is-closed:hover {
       background-color: #2B2738;
     }
+  }
+
+  .top {
+    min-height: 23vh;
+  }
+
+  .screenshot {
+    width: 30vw;
   }
 }

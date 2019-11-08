@@ -41,16 +41,36 @@ class Projects extends React.Component {
 
             <div className="project-container">
 
-              <div className="left">
+              <div className="top">
+                <div className="left">
 
-                <img
-                  src={this.renderSwitch(data.screencap)}
-                  alt={data.title}
-                  className="screenshot"
-                />
+                  <img
+                    src={this.renderSwitch(data.screencap)}
+                    alt={data.title}
+                    className="screenshot"
+                  />
 
+                </div>
+
+                <div className="right">
+                  <p className="project-description">{data.description}</p>
+                  <br />
+                  <ul className="project-details">
+
+                  {
+                    data.techUsed.map((tech) => {
+                      return (
+                        <li className="technologies">{tech}</li>
+                      )
+                    })
+                  }
+
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bottom">
                 <div className="buttons-container">
-
                   <button
                     className={`left-button button btn btn-2 btn-2a
                       ${data.demoLink === "disabled" ? 'disabled' : ''}
@@ -70,27 +90,8 @@ class Projects extends React.Component {
                   >
                     Code
                   </button>
-
                 </div>
               </div>
-
-              <div className="right">
-                <p className="project-description">{data.description}</p>
-                <br />
-                <ul className="project-details">
-
-                {
-                  data.techUsed.map((tech) => {
-                    return (
-                      <li className="technologies">{tech}</li>
-                    )
-                  })
-                }
-
-                </ul>
-              </div>
-
-
 
             </div>
           </Collapsible>
