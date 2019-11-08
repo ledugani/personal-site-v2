@@ -3,12 +3,12 @@ h1 {
   padding: 50px 10px;
 }
 
-ul {
+.responsibilities {
   text-align: left;
 }
 
 .experience {
-  background-color: #A7C8EB;
+  background-color: #8BA6A9;
   clear: both;
 }
 
@@ -177,7 +177,7 @@ ul {
 
 // collapsible styles
 
-.Collapsible__trigger {
+.timeline-item-content .Collapsible__trigger {
   display: inline-block;
   font-weight: 400;
   text-decoration: none;

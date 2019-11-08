@@ -1,3 +1,260 @@
+.project-container {
+  background-color: #746B91;
+  margin-top: 15px;
+}
+
 .projects {
-  background-color: lavender
+  background-color: #2B2738;
+  color: #FFFFFF;
+}
+
+.left {
+  display: block;
+  float: left;
+  width: 30%;
+}
+
+.right {
+  display: block;
+  position: relative;
+  float: right;
+  width: 70%;
+}
+
+.clpsbl {
+  margin: 0 !important;
+}
+
+.single-project .Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: #2B2738;
+  position: relative;
+  padding: 10px;
+  color: #FFFFFF;
+
+  &:after {
+    font-family: 'FontAwesome';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  &.is-open:after {
+    transform: rotateZ(180deg);
+  }
+
+  &.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
+
+  &.is-closed:hover {
+    background-color: rgb(66, 60, 87);
+  }
+
+  &:hover {
+    cursor: pointer
+  }
+}
+
+.project-details {
+  text-align: left;
+  margin-left: 40%;
+}
+
+// button styles
+
+.buttons-container {
+  width: 200px;
+  margin: 15px auto;
+  //overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-button {
+  float: left;
+  margin: 0;
+}
+
+.right-button {
+  float: right;
+  margin: 0;
+}
+
+.technologies {
+  list-style-position: inside;
+}
+
+/* General button style (reset) */
+.btn {
+  color: #FFFFFF;
+	cursor: pointer;
+	padding: 10px;
+  display: inline-block;
+	//margin: 15px 30px;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  &:focus {
+    outline: 0;
+    color: #FFFFFF;
+  }
+}
+
+.btn:after {
+  color: #FFFFFF;
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Button 2 */
+.btn-2 {
+  color: #FFFFFF;
+	background: #cb4e4e;
+	box-shadow: 0 6px #ab3c3c;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+/* Button 2a */
+.btn-2a {
+  color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.btn-2a:hover {
+  color: #FFFFFF;
+	box-shadow: 0 4px #ab3c3c;
+  top: 2px;
+}
+
+.btn-2a:active {
+  color: #FFFFFF;
+	box-shadow: 0 0 #ab3c3c;
+  top: 6px;
+  &:focus {
+    outline: 0;
+  }
+}
+
+// screen size between 1000px and 1300px
+@media (min-width: 1000px)  {
+  .screenshot {
+    width: 200px;
+    float: right;
+  }
+
+  .buttons-container {
+    width: 200px;
+  }
+
+  .top {
+    clear: both;
+    min-height: 40vh;
+  }
+
+  .project-description, .project-details {
+    width: 50vw;
+    font-size: 16px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .screenshot {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .buttons-container {
+    width: 200px;
+  }
+
+  .top {
+    clear: both;
+    min-height: 40vh;
+  }
+
+  .project-description, .project-details {
+    width: 50vw;
+    font-size: 13.5px;
+    margin: auto;
+  }
+}
+
+// mobile and smaller screens
+@media screen and (max-width: 600px) {
+  // .Collapsible__contentOuter {
+  //   padding: 10px;
+  // }
+
+  .disabled {
+    display: none;
+  }
+
+  .screenshot {
+    width: 20vw;
+  }
+
+  // .buttons-container {
+  //   margin-left: -6px;
+  // }
+
+  .btn {
+    clear: both;
+    margin: auto;
+    width: 100%;
+  }
+
+  .right, .left {
+    width: 50%;
+    height: 100%;
+  }
+
+  .left > .placeholder,
+  .right >  .project-description{
+    width: 90%;
+  }
+
+  .project-description, .project-details {
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .project-description {
+    text-align: justify;
+  }
+
+  .project-details {
+    margin-top: -25px;
+  }
+
+  .single-project .Collapsible__trigger {
+    &.is-closed:hover {
+      background-color: #2B2738;
+    }
+  }
+
+  .top {
+    min-height: 23vh;
+  }
+
+  .screenshot {
+    width: 30vw;
+  }
 }
