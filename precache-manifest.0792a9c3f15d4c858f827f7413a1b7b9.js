@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1052af9dcbf7c2c1c6368f56afb419f",
+    "revision": "4fa3b95274f33603599b04e9b594eab8",
     "url": "/personal-site-v2/index.html"
   },
   {
-    "revision": "f56c5feff603544ade5e",
+    "revision": "512d5607e553c94f046f",
     "url": "/personal-site-v2/static/css/2.ed70db15.chunk.css"
   },
   {
-    "revision": "f451d4b221fbb824617e",
-    "url": "/personal-site-v2/static/css/main.a2877364.chunk.css"
+    "revision": "27c8283eaeb95923184c",
+    "url": "/personal-site-v2/static/css/main.0e7ff9c3.chunk.css"
   },
   {
-    "revision": "f56c5feff603544ade5e",
-    "url": "/personal-site-v2/static/js/2.a23e2cf3.chunk.js"
+    "revision": "512d5607e553c94f046f",
+    "url": "/personal-site-v2/static/js/2.26f2eaff.chunk.js"
   },
   {
-    "revision": "f451d4b221fbb824617e",
-    "url": "/personal-site-v2/static/js/main.b7331f52.chunk.js"
+    "revision": "27c8283eaeb95923184c",
+    "url": "/personal-site-v2/static/js/main.1bcc0695.chunk.js"
   },
   {
     "revision": "9f12568e81a502a5eefa",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "508b8201ed077ff913ba1edf0446d296",
     "url": "/personal-site-v2/static/media/JSON.508b8201.png"
+  },
+  {
+    "revision": "56db07c559586b1b95d43f530fb502db",
+    "url": "/personal-site-v2/static/media/aadwebb.56db07c5.png"
   },
   {
     "revision": "38591e597fbf59f0d286ae250e5f32fd",
@@ -88,12 +92,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-site-v2/static/media/jquery.e40dfa16.png"
   },
   {
+    "revision": "02ca0367bbf4c406266f956453f33fc1",
+    "url": "/personal-site-v2/static/media/movie-maker.02ca0367.png"
+  },
+  {
     "revision": "0da8c013d7a43ce1fb13bc58a5afc48b",
     "url": "/personal-site-v2/static/media/nodejs.0da8c013.png"
   },
   {
     "revision": "6fc2457a8524cd3f410fcf276402bb52",
     "url": "/personal-site-v2/static/media/npm.6fc2457a.png"
+  },
+  {
+    "revision": "8ebd2e832c776745bc7463e86fe9ee1e",
+    "url": "/personal-site-v2/static/media/placeholder.8ebd2e83.jpg"
+  },
+  {
+    "revision": "1d98b264ae6beaa0909d4b2841df2bbd",
+    "url": "/personal-site-v2/static/media/polyphony.1d98b264.png"
   },
   {
     "revision": "50d351514120048e730385bc0cf289ec",
@@ -134,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e25516a20c0e909f08667a80f1a46f4",
     "url": "/personal-site-v2/static/media/sql-server.4e25516a.png"
+  },
+  {
+    "revision": "1febc8ecb392d74dc46f64e29355137e",
+    "url": "/personal-site-v2/static/media/usvi-today.1febc8ec.png"
   },
   {
     "revision": "2e2cbb5e6bc6f1531149f12f0d43c31d",
