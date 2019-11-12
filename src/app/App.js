@@ -50,6 +50,8 @@ function App() {
       <div className="contact">
         <Contact />
       </div>
+
+      <footer></footer>
     </div>
   );
 }
