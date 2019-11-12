@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './impossible_cube.png';
 
-import Blog from '../components/Blog/Blog';
+//import Blog from '../components/Blog/Blog';
 import Contact from '../components/Contact/Contact';
 import Experience from '../components/Experience/Experience';
 import Home from '../components/Home/Home';
@@ -43,9 +43,9 @@ function App() {
         <Projects />
       </div>
 
-      <div className="blog">
+      {/* <div className="blog">
         <Blog />
-      </div>
+      </div> */}
 
       <div className="contact">
         <Contact />
