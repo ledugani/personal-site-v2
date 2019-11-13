@@ -12,6 +12,12 @@ import Navbar from '../components/Navbar/Navbar';
 import './App.css';
 
 function App() {
+  const year = new Date().getFullYear();
+
+  const footerStyle = {
+    "background-color": '#C8DAB9'
+  };
+
   return (
     <div className="App">
       <div className="navigation-menu">
@@ -51,7 +57,14 @@ function App() {
         <Contact />
       </div>
 
-      <footer></footer>
+      <footer>
+        <ul>
+          <li><a href="https://twitter.com/@ledugani" className="social twitter"></a></li>
+          <li><a href="https://www.linkedin.com/in/tom-dugan/" className="social linkedin"></a></li>
+          <li><a href="https://github.com/ledugani" className="social github"></a></li>
+        </ul>
+        <p class="copyright">&copy;{year}, Tom Dugan Enterprise</p>
+      </footer>
     </div>
   );
 }

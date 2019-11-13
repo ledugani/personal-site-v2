@@ -1,5 +1,5 @@
 import React from 'react';
-import tomicon from './favicon.tom.png';
+//import tomicon from './favicon.tom.png';
 import './Contact.css';
 
 class Contact extends React.Component {
@@ -9,7 +9,7 @@ class Contact extends React.Component {
       <div className="contact-info">
         <h1>Contact</h1>
         <div>
-          {/* <ul id="list" className="card">
+          {/* <ul id="list" classNamcontact-e="card">
             <li className="list-item">Follow me on <a href="https://twitter.com/notthomasdugan">Twitter</a></li>
             <li className="list-item">Reach out on <a href="https://www.facebook.com/quadsman117">Facebook</a></li>
             <li className="list-item">Shout me out on <a href="https://www.instagram.com/notthomasdugan/">Instagram</a></li>
@@ -17,67 +17,61 @@ class Contact extends React.Component {
             <li className="list-item">Yell out my name in a public place</li>
           </ul> */}
 
-          <div class="center">
-            <div class="card">
-              <div class="additional">
-                <div class="user-card">
-                  <div class="level center">
-                    Junior Level
-                  </div>
+          <button className="contact-card">
+            <div className="row clearfix right">
+              {/* <div className="left">615 556 2342</div> */}
+              <div className="bizcard-title">Full Stack Developer</div>
 
-                  <img src={tomicon} alt="" className="favicon" />
+              {/* <div className="right">
+                <p>
+                  <span className="big">T</span>
+                  homas &amp;
+                  <span className="big">D</span>ugan
+                </p>
+                <p>
+                  <span className="med no-space">D</span>
+                  <span className="small no-space">ev for </span>
+                  <span className="med no-space">H</span>
+                  <span className="small no-space">ire</span>
+                </p>
+              </div> */}
 
-                  <div class="points center">
-                    Software Developer
-                  </div>
-                </div>
-                <div class="more-info">
-                  <h2>Thomas Dugan</h2>
-                  <div class="coords">
-                    <span>Group Name</span>
-                    <span>Began Coding October 2015</span>
-                  </div>
-                  <div class="coords">
-                    <span>Position/Role</span>
-                    <span>Nashville, TN</span>
-                  </div>
-                  <div class="stats">
-                    <div>
-                      <div class="title">Experience</div>
-                      <i class="fa fa-trophy"></i>
-                      <div class="value">4yr</div>
-                    </div>
-                    <div>
-                      <div class="title">Collection</div>
-                      <i class="fa fa-gamepad"></i>
-                      <div class="value">27</div>
-                    </div>
-                    <div>
-                      <div class="title">Weekly Meetups</div>
-                      <i class="fa fa-group"></i>
-                      <div class="value">3</div>
-                    </div>
-                    <div>
-                      <div class="title">Coffee</div>
-                      <i class="fa fa-coffee"></i>
-                      <div class="value infinity">∞</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="general">
-                <h2>Thomas Dugan</h2>
-                <ul id="list" className="card">
-                  <li>Follow me on <a href="https://twitter.com/notthomasdugan">Twitter</a></li>
-                  <li>Reach out on <a href="https://www.facebook.com/quadsman117">Facebook</a></li>
-                  <li>Shout me out on <a href="https://www.instagram.com/notthomasdugan/">Instagram</a></li>
-                  <li>See me in action on <a href="https://github.com/ledugani">GitHub</a></li>
-                  <li>Yell out my name in a public place</li>
-                </ul>
-                <span class="more">Mouse over the card for more info</span>
-              </div>
+              <div className="bizcard-punch">Let's Build Something.</div>
             </div>
-          </div>
+            {/* <div className="row">
+              <p>
+                <span className="big">T</span>homas
+                <span className="big">Dugan</span>
+              </p>
+              <p>
+                <span className="big">S</span>oftware
+                <span className="big">D</span>eveloper
+              </p>
+            </div> */}
+            <div className="row right bizcard-contact">
+              <p><strong>Thomas Dugan</strong></p>
+              <p><strong>Mobile</strong>: <span>(615) 556-2342</span></p>
+              <p><strong>Location</strong>: <span>Greater Nashville Area, TN</span></p>
+              <p><strong>Email</strong>: <span>tdugan85@gmail.com</span></p>
+              <p><strong>Website</strong>: <span>www.ledugani.com</span></p>
+              {/* <p>
+                <span className="med">358 E</span>
+                <span className="small">xchange </span>
+                <span className="med">P</span>
+                <span className="small">lace </span>
+                <span className="med">N</span>
+                <span className="small">ew </span>
+                <span className="med">Y</span>
+                <span className="small">ork</span>
+                <span className="med">, N. Y. 10099 F</span>
+                <span className="small">ax </span>
+                <span className="med">212 555 6390 T</span>
+                <span className="small">elex </span>
+                <span className="med">10 4534</span>
+              </p> */}
+            </div>
+          </button>
+
         </div>
       </div>
     );
