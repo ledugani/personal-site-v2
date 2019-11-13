@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fa3b95274f33603599b04e9b594eab8",
+    "revision": "3786a100ffa4ed2bde81a421f40a1f90",
     "url": "/personal-site-v2/index.html"
   },
   {
-    "revision": "512d5607e553c94f046f",
+    "revision": "3f3c37deb3fe71d88524",
     "url": "/personal-site-v2/static/css/2.ed70db15.chunk.css"
   },
   {
-    "revision": "27c8283eaeb95923184c",
-    "url": "/personal-site-v2/static/css/main.0e7ff9c3.chunk.css"
+    "revision": "9396cce089564ba90da1",
+    "url": "/personal-site-v2/static/css/main.7635b0e3.chunk.css"
   },
   {
-    "revision": "512d5607e553c94f046f",
-    "url": "/personal-site-v2/static/js/2.26f2eaff.chunk.js"
+    "revision": "3f3c37deb3fe71d88524",
+    "url": "/personal-site-v2/static/js/2.bd482f59.chunk.js"
   },
   {
-    "revision": "27c8283eaeb95923184c",
-    "url": "/personal-site-v2/static/js/main.1bcc0695.chunk.js"
+    "revision": "9396cce089564ba90da1",
+    "url": "/personal-site-v2/static/js/main.d427f111.chunk.js"
   },
   {
     "revision": "9f12568e81a502a5eefa",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-site-v2/static/media/firebase.ba80bd2c.png"
   },
   {
+    "revision": "2bad1ecba73ef92d6bc71b735f0dec88",
+    "url": "/personal-site-v2/static/media/github.2bad1ecb.svg"
+  },
+  {
     "revision": "a3ded34f63af83e67b3ed097403ab338",
     "url": "/personal-site-v2/static/media/grunt.a3ded34f.png"
   },
@@ -90,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e40dfa164607955ace779608d29f3bfd",
     "url": "/personal-site-v2/static/media/jquery.e40dfa16.png"
+  },
+  {
+    "revision": "184a83d77cd25bf0c3e0a340d43429e8",
+    "url": "/personal-site-v2/static/media/linkedin.184a83d7.svg"
   },
   {
     "revision": "02ca0367bbf4c406266f956453f33fc1",
@@ -150,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e25516a20c0e909f08667a80f1a46f4",
     "url": "/personal-site-v2/static/media/sql-server.4e25516a.png"
+  },
+  {
+    "revision": "3572ead000aea92df6fcfd490277ade5",
+    "url": "/personal-site-v2/static/media/twitter.3572ead0.svg"
   },
   {
     "revision": "1febc8ecb392d74dc46f64e29355137e",
