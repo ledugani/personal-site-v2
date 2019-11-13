@@ -8,6 +8,9 @@ h1 {
 h2 {
   margin: 0px; }
 
+html, footer {
+  background-color: #C8DAB9; }
+
 .App {
   text-align: center;
   display: block; }
@@ -26,6 +29,50 @@ h2 {
 
 .hm-text {
   color: black; }
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px; }
+
+footer .copyright {
+  top: -8px;
+  margin: 10px auto 0 auto; }
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+footer ul li {
+  display: inline-block; }
+
+.social-links li a {
+  text-decoration: none; }
+
+.social-links li a:hover {
+  color: palevioletred; }
+
+a.social {
+  display: inline-block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s; }
+
+a.twitter {
+  background-image: url(./twitter.svg); }
+
+a.linkedin {
+  background-image: url(./linkedin.svg); }
+
+a.github {
+  background-image: url(./github.svg); }
+
+a.social:hover {
+  opacity: 1; }
 
 @keyframes App-logo-spin {
   from {

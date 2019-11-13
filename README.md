@@ -12,10 +12,9 @@ This is an overhaul of my personal site. I'm taking the elements I like from the
 * **10/8/19 PM** Make navbar more mobile-friendly
 * **10/18/19** Complete proficiencies carousel
 * **10/25/19 AM** Completed professional experience section timeline
+* **11/13/19 AM** Completed contact section/business card
 
 ### To-Do Next
 
 * Create hamburger menu + animation
-* Projects
-* Blog
-* Contact
+* Finalize mobile styling

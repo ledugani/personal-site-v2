@@ -36,7 +36,7 @@ class Projects extends React.Component {
   render () {
     const MyProjects = allProjects.map((data) => {
       return (
-        <h2 className="single-project">
+        <h2 className="single-project" key={data.screencap}>
           <Collapsible trigger={data.title} className="clpsbl">
 
             <div className="project-container">
@@ -60,7 +60,7 @@ class Projects extends React.Component {
                   {
                     data.techUsed.map((tech) => {
                       return (
-                        <li className="technologies">{tech}</li>
+                        <li className="technologies" key={tech}>{tech}</li>
                       )
                     })
                   }

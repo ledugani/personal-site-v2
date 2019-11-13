@@ -1,7 +1,7 @@
 import React from 'react';
 // import logo from './impossible_cube.png';
 
-import Blog from '../components/Blog/Blog';
+//import Blog from '../components/Blog/Blog';
 import Contact from '../components/Contact/Contact';
 import Experience from '../components/Experience/Experience';
 import Home from '../components/Home/Home';
@@ -12,6 +12,8 @@ import Navbar from '../components/Navbar/Navbar';
 import './App.css';
 
 function App() {
+  const year = new Date().getFullYear();
+
   return (
     <div className="App">
       <div className="navigation-menu">
@@ -43,13 +45,22 @@ function App() {
         <Projects />
       </div>
 
-      <div className="blog">
+      {/* <div className="blog">
         <Blog />
-      </div>
+      </div> */}
 
       <div className="contact">
         <Contact />
       </div>
+
+      <footer>
+        <ul>
+          <li><a href="https://twitter.com/@ledugani" className="social twitter"></a></li>
+          <li><a href="https://www.linkedin.com/in/tom-dugan/" className="social linkedin"></a></li>
+          <li><a href="https://github.com/ledugani" className="social github"></a></li>
+        </ul>
+        <p class="copyright">&copy;{year}, Tom Dugan Enterprise</p>
+      </footer>
     </div>
   );
 }
