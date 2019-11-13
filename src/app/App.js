@@ -14,10 +14,6 @@ import './App.css';
 function App() {
   const year = new Date().getFullYear();
 
-  const footerStyle = {
-    "background-color": '#C8DAB9'
-  };
-
   return (
     <div className="App">
       <div className="navigation-menu">
