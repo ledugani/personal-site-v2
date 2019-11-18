@@ -6,7 +6,7 @@ class Contact extends React.Component {
 
   render () {
     return (
-      <div className="contact-info">
+      <div className="contact-info" id="contact">
         <h1>Contact</h1>
         <div>
           {/* <ul id="list" classNamcontact-e="card">

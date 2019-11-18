@@ -6,7 +6,7 @@ class Home extends React.Component {
 
   render () {
     return (
-      <div className="home">
+      <div className="home" id="home">
         <div className="wallpaper">
           <div className="frame">
             <img src={me} alt="portrait" className="picture" />

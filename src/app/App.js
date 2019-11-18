@@ -1,6 +1,5 @@
 import React from 'react';
 // import logo from './impossible_cube.png';
-
 //import Blog from '../components/Blog/Blog';
 import Contact from '../components/Contact/Contact';
 import Experience from '../components/Experience/Experience';
@@ -11,7 +10,7 @@ import Navbar from '../components/Navbar/Navbar';
 
 import './App.css';
 
-function App() {
+export default function App() {
   const year = new Date().getFullYear();
 
   return (
@@ -59,10 +58,8 @@ function App() {
           <li><a href="https://www.linkedin.com/in/tom-dugan/" className="social linkedin"></a></li>
           <li><a href="https://github.com/ledugani" className="social github"></a></li>
         </ul>
-        <p class="copyright">&copy;{year}, Tom Dugan Enterprise</p>
+        <p className="copyright">&copy;{year}, Tom Dugan Enterprise</p>
       </footer>
     </div>
   );
 }
-
-export default App;

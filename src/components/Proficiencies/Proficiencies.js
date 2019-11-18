@@ -43,7 +43,7 @@ const responsive = {
 class Proficiencies extends React.Component {
   render () {
     return (
-      <div className="proficiencies">
+      <div className="proficiencies" id="proficiencies">
         <Carousel
           additionalTransfrom={0}
           arrows
