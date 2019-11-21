@@ -100,7 +100,7 @@ class Projects extends React.Component {
     });
 
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <h1>Project Portfolio</h1>
         <div className="project-container">
           {MyProjects}

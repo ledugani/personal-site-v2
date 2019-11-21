@@ -3,8 +3,11 @@ import home from './icons/home.svg';
 import contact from './icons/contact.svg';
 import experience from './icons/experience.svg';
 import projects from './icons/projects.svg';
-import blog from './icons/blog.svg';
+import prof from './icons/blog.svg';
 import right from './icons/right.svg';
+
+//import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import './Navbar.css';
 
 class Navbar extends React.Component {
@@ -12,45 +15,53 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar navbar-default">
         <ul className="navigation-list">
-          <a href="/">
+          <Link smooth to="/" >
             <li className="nav-btn nav-home">
               <img src={home} className="mobile-icon" alt="logo" />
               <p className="engraved">Home</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
-          </a>
+          </Link>
 
-          <a href="/">
+          <Link smooth to="#proficiencies">
+            <li className="nav-btn nav-blog">
+              <img src={prof} className="mobile-icon" alt="logo" />
+              <p className="engraved">Proficiencies</p>
+              <img src={right} className="mobile-icon right-arrow" alt="logo" />
+            </li>
+          </Link>
+
+          <Link smooth to="#experience">
             <li className="nav-btn nav-experience">
               <img src={experience} className="mobile-icon" alt="logo" />
               <p className="engraved">Experience</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
-          </a>
+          </Link>
 
-          <a href="/">
+          <Link smooth to="#projects">
             <li className="nav-btn nav-projects">
               <img src={projects} className="mobile-icon" alt="logo" />
               <p className="engraved">Projects</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
-          </a>
+          </Link>
 
-          <a href="/">
+          {/* <Link to="#">
             <li className="nav-btn nav-blog">
               <img src={blog} className="mobile-icon" alt="logo" />
               <p className="engraved">Blog</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
-          </a>
+          </Link> */}
 
-          <a href="/">
+          <Link smooth to="#contact">
             <li className="nav-btn nav-contact">
               <img src={contact} className="mobile-icon" alt="logo" />
               <p className="engraved">Contact</p>
               <img src={right} className="mobile-icon right-arrow" alt="logo" />
             </li>
-          </a>
+          </Link>
         </ul>
       </nav>
     );

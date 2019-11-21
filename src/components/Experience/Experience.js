@@ -27,7 +27,7 @@ class Experience extends React.Component {
     });
 
     return (
-      <div className="experience">
+      <div className="experience" id="experience">
         <h1>Professional Experience</h1>
         <div className="timeline-container">
           {timelineComponents}
