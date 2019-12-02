@@ -8,6 +8,10 @@
   color: #FFFFFF;
 }
 
+.top {
+  padding-bottom: 18%;
+}
+
 .left {
   display: block;
   float: left;
@@ -33,6 +37,7 @@
   position: relative;
   padding: 10px;
   color: #FFFFFF;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 
   &:after {
     font-family: 'FontAwesome';
@@ -67,25 +72,7 @@
   margin-left: 40%;
 }
 
-// button styles
-
-.buttons-container {
-  width: 200px;
-  margin: 15px auto;
-  //overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-button {
-  float: left;
-  margin: 0;
-}
-
-.right-button {
-  float: right;
-  margin: 0;
-}
+// list items
 
 .technologies {
   list-style-position: inside;
@@ -100,12 +87,38 @@
   background-color: #9DA39A;
 }
 
+// button styles
+
+.buttons-container {
+  width: 50%;
+  margin: 15px auto;
+  padding: 15px;
+  //overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-button {
+  float: left;
+  margin: 0;
+}
+
+.right-button {
+  float: right;
+  margin: 0;
+}
+
+.bottom {
+  clear: both;
+}
+
 /* General button style (reset) */
 .btn {
   color: #FFFFFF;
 	cursor: pointer;
 	padding: 10px;
   display: inline-block;
+  width: 30%;
 	//margin: 15px 30px;
 	text-transform: uppercase;
 	outline: none;
@@ -169,7 +182,7 @@
   }
 
   .buttons-container {
-    width: 200px;
+    width: 50%;
   }
 
   .top {
