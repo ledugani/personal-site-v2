@@ -1,3 +1,10 @@
+.navigation-menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+}
+
 .engraved {
   margin: 0;
 }
@@ -11,6 +18,7 @@
   height: 17.5%;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
   position: relative;
+  border-radius: 0;
 }
 
 .navigation-list {

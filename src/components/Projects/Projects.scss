@@ -8,6 +8,10 @@
   color: #FFFFFF;
 }
 
+.top {
+  padding-bottom: 18%;
+}
+
 .left {
   display: block;
   float: left;
@@ -33,6 +37,7 @@
   position: relative;
   padding: 10px;
   color: #FFFFFF;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 
   &:after {
     font-family: 'FontAwesome';
@@ -67,14 +72,30 @@
   margin-left: 40%;
 }
 
+// list items
+
+.technologies {
+  list-style-position: inside;
+  display: inline;
+  background-color: #54494B;
+  border-radius: 1em;
+  padding: 5px;
+  margin: 5px;
+}
+
+.technologies:nth-child(odd) {
+  background-color: #9DA39A;
+}
+
 // button styles
 
 .buttons-container {
-  width: 200px;
+  width: 50%;
   margin: 15px auto;
+  padding: 15px;
   //overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .left-button {
@@ -87,8 +108,8 @@
   margin: 0;
 }
 
-.technologies {
-  list-style-position: inside;
+.bottom {
+  clear: both;
 }
 
 /* General button style (reset) */
@@ -97,6 +118,7 @@
 	cursor: pointer;
 	padding: 10px;
   display: inline-block;
+  width: 30%;
 	//margin: 15px 30px;
 	text-transform: uppercase;
 	outline: none;
@@ -124,8 +146,8 @@
 /* Button 2 */
 .btn-2 {
   color: #FFFFFF;
-	background: #cb4e4e;
-	box-shadow: 0 6px #ab3c3c;
+	background: #30321C;
+	box-shadow: 0 6px rgb(29, 29, 16);
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -139,20 +161,20 @@
 
 .btn-2a:hover {
   color: #FFFFFF;
-	box-shadow: 0 4px #ab3c3c;
+	box-shadow: 0 4px #30321C;
   top: 2px;
 }
 
 .btn-2a:active {
   color: #FFFFFF;
-	box-shadow: 0 0 #ab3c3c;
+	box-shadow: 0 0 #30321C;
   top: 6px;
   &:focus {
     outline: 0;
   }
 }
 
-// screen size between 1000px and 1300px
+// screen size between 1000px
 @media (min-width: 1000px)  {
   .screenshot {
     width: 200px;
@@ -160,7 +182,7 @@
   }
 
   .buttons-container {
-    width: 200px;
+    width: 50%;
   }
 
   .top {
@@ -172,6 +194,10 @@
     width: 50vw;
     font-size: 16px;
     margin: auto;
+  }
+
+  .project-description {
+    text-align: justify;
   }
 }
 
