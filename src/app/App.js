@@ -7,6 +7,8 @@ import Home from '../components/Home/Home';
 import Proficiencies from '../components/Proficiencies/Proficiencies';
 import Projects from '../components/Projects/Projects';
 import Navbar from '../components/Navbar/Navbar';
+import SideDrawer from '../components/Navbar/SideDrawer/SideDrawer';
+import Backdrop from '../components/Navbar/Backdrop/Backdrop';
 
 import './App.css';
 
@@ -14,7 +16,10 @@ export default function App() {
   const year = new Date().getFullYear();
 
   return (
-    <div className="App">
+    <div className="App" style={{height: '100%'}}>
+      <SideDrawer />
+      <Backdrop />
+
       <div className="navigation-menu">
         <Navbar />
       </div>

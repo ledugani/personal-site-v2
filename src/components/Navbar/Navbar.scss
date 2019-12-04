@@ -66,15 +66,69 @@
   display: none;
 }
 
+@media (min-width:800px) {
+  #mobile-navbar {
+    display: none;
+  }
+
+  #desktop-navbar {
+    display: block;
+  }
+}
+
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:800px) {
+  #desktop-navbar {
+    display: none;
+  }
+
+  #mobile-navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: #C8DAB9;
+    height: 10rem;
+    width: 100%;
+  }
+
+  .button-border {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+  }
+
+  .toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    top: 25px;
+  }
+
+  .toggle-button:focus {
+    outline: none;
+  }
+
+  .toggle-button__line {
+    width: 50px;
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+  }
+
   .nav-home,
   .nav-experience,
   .nav-projects,
   .nav-blog,
   .nav-contact,
   .navigation-list {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     border-bottom: solid #333330 2px;
     background-color: #C8DAB9;
     justify-content: left;
