@@ -12,59 +12,85 @@ import Backdrop from '../components/Navbar/Backdrop/Backdrop';
 
 import './App.css';
 
-export default function App() {
-  const year = new Date().getFullYear();
+class App extends React.Component {
+  state = {
+    sideDrawerOpen: false
+  };
 
-  return (
-    <div className="App" style={{height: '100%'}}>
-      <SideDrawer />
-      <Backdrop />
+  year = () => {
+    return new Date().getFullYear();
+  }
 
-      <div className="navigation-menu">
-        <Navbar />
-      </div>
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+    });
+  };
 
-      {/* <header className="App-header">
-        <div className="home-container">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p className="hm-text">
-            "The quieter you become, the more you can hear."
-          </p>
+  backdropClickHandler = () => {
+    this.setState({sideDrawerOpen: false});
+  };
+
+  render() {
+    let backdrop;
+
+    if (this.state.sideDrawerOpen) {
+      backdrop = <Backdrop click={this.backdropClickHandler}/>;
+    }
+
+    return (
+      <div className="App" style={{height: '100%'}}>
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+
+        <div className="navigation-menu">
+          <Navbar drawerToggleClickHandler={this.drawerToggleClickHandler} />
         </div>
-      </header> */}
 
-      <div className="home">
-        <Home />
+        {/* <header className="App-header">
+          <div className="home-container">
+            <img src={logo} className="App-logo" alt="logo" />
+            <p className="hm-text">
+              "The quieter you become, the more you can hear."
+            </p>
+          </div>
+        </header> */}
+
+        <div className="home">
+          <Home />
+        </div>
+
+        <div className="proficiencies">
+          <Proficiencies />
+        </div>
+
+        <div className="experience">
+          <Experience />
+        </div>
+
+        <div className="projects">
+          <Projects />
+        </div>
+
+        {/* <div className="blog">
+          <Blog />
+        </div> */}
+
+        <div className="contact">
+          <Contact />
+        </div>
+
+        <footer>
+          <ul>
+            <li><a href="https://twitter.com/@ledugani" className="social twitter"></a></li>
+            <li><a href="https://www.linkedin.com/in/tom-dugan/" className="social linkedin"></a></li>
+            <li><a href="https://github.com/ledugani" className="social github"></a></li>
+          </ul>
+          <p className="copyright">&copy;{this.year()}, Tom Dugan Enterprise</p>
+        </footer>
       </div>
-
-      <div className="proficiencies">
-        <Proficiencies />
-      </div>
-
-      <div className="experience">
-        <Experience />
-      </div>
-
-      <div className="projects">
-        <Projects />
-      </div>
-
-      {/* <div className="blog">
-        <Blog />
-      </div> */}
-
-      <div className="contact">
-        <Contact />
-      </div>
-
-      <footer>
-        <ul>
-          <li><a href="https://twitter.com/@ledugani" className="social twitter"></a></li>
-          <li><a href="https://www.linkedin.com/in/tom-dugan/" className="social linkedin"></a></li>
-          <li><a href="https://github.com/ledugani" className="social github"></a></li>
-        </ul>
-        <p className="copyright">&copy;{year}, Tom Dugan Enterprise</p>
-      </footer>
-    </div>
-  );
+    );
+  }
 }
+
+export default App;
