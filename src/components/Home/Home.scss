@@ -99,13 +99,15 @@
 
   .bio {
     height: 25vw;
+    box-sizing: border-box;
   }
 
   .bio-text {
     vertical-align: middle;
-    padding: 7px 14px;
+    padding: 14px;
     font-size: 2.1vw;
     margin-bottom: 0;
+    text-align: justify;
   }
 }
 

@@ -173,6 +173,10 @@ h1 {
   .timeline-item-content a::after {
       display: none;
   }
+
+  .timeline-container {
+    padding: 0 20px;
+  }
 }
 
 // collapsible styles
