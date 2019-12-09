@@ -61,6 +61,16 @@
   background-color: rgb(166, 182, 154);
 }
 
+.toolbar__navigation {
+  display: flex;
+}
+
+.toolbar__logo {
+  color: #333330;
+  text-decoration: none;
+  float: right;
+}
+
 // make icons invisible
 .mobile-icon {
   display: none;

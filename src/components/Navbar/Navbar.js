@@ -46,15 +46,14 @@ export default function Navbar (props) {
           </Link>
         </ul>
       </nav>
-      <nav id="mobile-navbar">
+      <nav id="mobile-navbar" className="toolbar__navigation">
         <div className="button-border">
           <button className="toggle-button" onClick={props.drawerToggleClickHandler}>
             <div className="toggle-button__line"></div>
             <div className="toggle-button__line"></div>
             <div className="toggle-button__line"></div>
-
-            {/* <FontAwesomeIcon className="fa-icon" icon={faBars} size="3x" /> */}
           </button>
+          <div className="toolbar__logo"><a href="/">Tom Dugan</a></div>
         </div>
       </nav>
     </div>
