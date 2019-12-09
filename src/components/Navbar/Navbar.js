@@ -53,7 +53,6 @@ export default function Navbar (props) {
             <div className="toggle-button__line"></div>
             <div className="toggle-button__line"></div>
           </button>
-          <div className="toolbar__logo"><a href="/">Tom Dugan</a></div>
         </div>
       </nav>
     </div>
