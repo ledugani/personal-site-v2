@@ -7,7 +7,7 @@ export default function Navbar (props) {
     <div>
       <nav id="desktop-navbar" className="navbar navbar-default">
         <ul className="navigation-list">
-          <Link smooth to="/" >
+          <Link smooth to="#home" >
             <li className="nav-btn nav-home">
               <p className="engraved">Home</p>
             </li>
