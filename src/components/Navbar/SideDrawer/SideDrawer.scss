@@ -21,10 +21,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .side-drawer li {
-  margin: 0.5rem 0;
+  // margin: 0.5rem 0;
+  width: 100%;
+  height: 25vh;
 }
 
 .side-drawer a {
@@ -35,4 +39,8 @@
 
 .side-drawer a:active {
   background-color: #fa923f;
+}
+
+.side-text {
+  font-size: 28px !important;
 }

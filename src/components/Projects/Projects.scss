@@ -72,21 +72,6 @@
   margin-left: 40%;
 }
 
-// list items
-
-.technologies {
-  list-style-position: inside;
-  display: inline;
-  background-color: #54494B;
-  border-radius: 1em;
-  padding: 5px;
-  margin: 5px;
-}
-
-.technologies:nth-child(odd) {
-  background-color: #9DA39A;
-}
-
 // button styles
 
 .buttons-container {
@@ -174,7 +159,7 @@
   }
 }
 
-// screen size between 1000px
+// screen size larger than 1000px
 @media (min-width: 1000px)  {
   .screenshot {
     width: 200px;
@@ -201,6 +186,7 @@
   }
 }
 
+// screen sizes between 600px and 1000px
 @media (min-width: 600px) and (max-width: 1000px) {
   .screenshot {
     width: 200px;
@@ -259,15 +245,19 @@
 
   .project-description, .project-details {
     margin: 0;
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .project-description {
     text-align: justify;
+    padding-bottom: 15px;
   }
 
   .project-details {
     margin-top: -25px;
+    width: 50vw;
+    height: 10vh;
+    padding-left: 0;
   }
 
   .single-project .Collapsible__trigger {
@@ -282,5 +272,28 @@
 
   .screenshot {
     width: 30vw;
+  }
+
+  .buttons-container {
+    padding-top: 30px;
+  }
+}
+
+// larger than mobile
+
+@media (min-width: 768px) {
+
+  // list items
+  .technologies {
+    list-style-position: inside;
+    display: inline;
+    background-color: #54494B;
+    border-radius: 1em;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .technologies:nth-child(odd) {
+    background-color: #9DA39A;
   }
 }

@@ -82,8 +82,11 @@ class App extends React.Component {
 
         <footer>
           <ul>
+            {/* eslint-disable-next-line */}
             <li><a href="https://twitter.com/@ledugani" className="social twitter"></a></li>
+            {/* eslint-disable-next-line */}
             <li><a href="https://www.linkedin.com/in/tom-dugan/" className="social linkedin"></a></li>
+            {/* eslint-disable-next-line */}
             <li><a href="https://github.com/ledugani" className="social github"></a></li>
           </ul>
           <p className="copyright">&copy;{this.year()}, Tom Dugan Enterprise</p>
