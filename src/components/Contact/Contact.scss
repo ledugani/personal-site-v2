@@ -58,7 +58,7 @@
   Hover and click on the card for animations!
 */
 
-// credit to for card styling https://codepen.io/swellfoop/pen/NLyRON
+// credit for card styling goes to https://codepen.io/swellfoop/pen/NLyRON
 
 @import url(https://fonts.googleapis.com/css?family=Cormorant+Garamond);
 
@@ -103,6 +103,10 @@ button {
   color: #F2F8F1
 }
 
+.bizcard-top {
+  margin-top: -72px;
+}
+
 .bizcard-title {
   font-size: 24px;
   font-weight: bold;
@@ -116,7 +120,8 @@ button {
 .bizcard-contact {
   font-size: 12px;
   position: absolute;
-  bottom: 0;
+  bottom: 35px;
+  right: 10px;
 }
 
 .clearfix::after {
@@ -218,8 +223,8 @@ button {
   float: left;
 }
 
-.right {
-  //float: right;
+.derecha {
+  float: right;
   text-align: right;
   padding-right: 10px;
 }
