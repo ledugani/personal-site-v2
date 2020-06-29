@@ -10,6 +10,7 @@ import Navbar from '../components/Navbar/Navbar';
 import SideDrawer from '../components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from '../components/Navbar/Backdrop/Backdrop';
 
+
 import './App.css';
 
 class App extends React.Component {
@@ -89,7 +90,8 @@ class App extends React.Component {
             {/* eslint-disable-next-line */}
             <li><a href="https://github.com/ledugani" className="social github"></a></li>
           </ul>
-          <p className="copyright">&copy;{this.year()}, Tom Dugan Enterprise</p>
+          {/* eslint-disable-next-line */}
+          <p className="copyright">&copy;{this.year()}, <a className="tdugan" href="https://tduganenterprise.com/" target="_blank">T.Dugan Enterprise</a></p>
         </footer>
       </div>
     );
