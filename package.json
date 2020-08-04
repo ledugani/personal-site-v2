@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ledugani.github.io/personal-site-v2/",
-  "name": "ledugani.github.io-v2",
+  "homepage": "http://ledugani.com",
+  "name": "ledugani.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
